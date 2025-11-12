@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Proyectos IoT y Microcontroladores</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Menú lateral (oculto por defecto) y botón en esquina superior izquierda -->
+    <button class="menu-btn" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <aside class="side-nav" aria-hidden="true">
+        <div class="side-nav-inner">
+            <button class="close-btn" aria-label="Cerrar menú"><i class="fas fa-times"></i></button>
+            <div class="logo side-logo">
+                <i class="fas fa-microchip"></i>
+                <span>Mi Portafolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Desarrollador de Soluciones IoT</h1>
+            <p>Especializado en Arduino, ESP32 y Proyectos de IoT con Python</p>
+            <button class="cta-button">Ver Mis Proyectos</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Soy un desarrollador apasionado por la tecnología IoT y los microcontroladores. 
+                        Me especializo en crear soluciones innovadoras utilizando Python, Arduino y ESP32 
+                        para conectar el mundo físico con el digital.
+                    </p>
+                    <p>
+                        Con experiencia en diseño de hardware, programación embebida y desarrollo de 
+                        aplicaciones IoT, busco transformar ideas en productos funcionales y eficientes.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>+10</h3>
+                        <p>Proyectos Completados</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Años de Experiencia</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Dedicación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Sistema Domótica Inteligente</h3>
+                    <p class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">ESP32</span>
+                        <span class="tech-tag">MQTT</span>
+                    </p>
+                    <p>
+                        Sistema de control del hogar mediante red IoT. Monitoreo y automatización 
+                        de luces, temperatura y seguridad.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="btn-secondary">Ver Más</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Monitor de Humedad de Plantas</h3>
+                    <p class="tech-stack">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">Sensores</span>
+                        <span class="tech-tag">Python</span>
+                    </p>
+                    <p>
+                        Dispositivo IoT para monitoreo automático de humedad del suelo con alertas 
+                        en tiempo real.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="btn-secondary">Ver Más</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-thermometer-half"></i>
+                    </div>
+                    <h3>Estación Meteorológica Conectada</h3>
+                    <p class="tech-stack">
+                        <span class="tech-tag">ESP32</span>
+                        <span class="tech-tag">WiFi</span>
+                        <span class="tech-tag">API REST</span>
+                    </p>
+                    <p>
+                        Estación meteorológica con sensores de temperatura, humedad y presión. 
+                        Datos almacenados en la nube.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="btn-secondary">Ver Más</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Robot Móvil Autónomo</h3>
+                    <p class="tech-stack">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">Visión Artificial</span>
+                        <span class="tech-tag">Python</span>
+                    </p>
+                    <p>
+                        Robot con capacidad de navegación autónoma, evitación de obstáculos 
+                        y control remoto vía WiFi.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="btn-secondary">Ver Más</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 5 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Sistema de Monitoreo Industrial</h3>
+                    <p class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">Dashboard</span>
+                    </p>
+                    <p>
+                        Plataforma de monitoreo en tiempo real para procesos industriales 
+                        con análisis de datos y reportes.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="btn-secondary">Ver Más</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 6 -->
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Cerradura Inteligente WiFi</h3>
+                    <p class="tech-stack">
+                        <span class="tech-tag">ESP32</span>
+                        <span class="tech-tag">Seguridad</span>
+                        <span class="tech-tag">App Mobile</span>
+                    </p>
+                    <p>
+                        Cerradura controlada por WiFi con autenticación segura, registro de acceso 
+                        y control remoto vía aplicación.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="btn-secondary">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Lenguajes de Programación</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">Python</span><div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div></li>
+                        <li><span class="skill-name">C/C++</span><div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div></li>
+                        <li><span class="skill-name">JavaScript</span><div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div></li>
+                        <li><span class="skill-name">HTML/CSS</span><div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div></li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tecnologías IoT</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">Arduino</span><div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div></li>
+                        <li><span class="skill-name">ESP32/ESP8266</span><div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div></li>
+                        <li><span class="skill-name">MQTT</span><div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div></li>
+                        <li><span class="skill-name">Sensores</span><div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div></li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Herramientas y Frameworks</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">Git/GitHub</span><div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div></li>
+                        <li><span class="skill-name">Docker</span><div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div></li>
+                        <li><span class="skill-name">REST APIs</span><div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div></li>
+                        <li><span class="skill-name">Bases de Datos</span><div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <p>¿Tienes un proyecto en mente? Me encantaría escuchar sobre él.</p>
+                <div class="contact-info">
+                    <a href="mailto:tu@email.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        tu@email.com
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Tu Nombre" required>
+                    <input type="email" placeholder="Tu Email" required>
+                    <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                    <button type="submit" class="cta-button">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mi Portafolio de IoT. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
